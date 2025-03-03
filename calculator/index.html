@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+        .calculator {
+    width: 300px;
+    margin: 60px auto;
+    padding: 50px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color:#f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculator input[type="text"] {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 24px;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.calculator div {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.calculator button {
+    width: 18%;
+    height: 50px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.calculator button:hover {
+    background-color: pink;
+}
+
+.calculator button:active {
+    background-color: #c0c0c0;
+}
+h1{
+    color:blue;
+    text-align: center;
+    padding:20px;
+}
+     
+
+        
+    </style>
+</head>
+<body>
+    <h1>SIMPLE CALCULATOR</h1>
+    <div class="calculator">
+        <input type="text" placeholder="0" id="input">
+        <div>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>DEL</button>
+            <button>AC</button>
+            
+        </div>
+        <div>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>*</button>
+            <button>/</button>
+            
+        </div>
+        <div>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>+</button>
+            <button>-</button>
+            
+        </div>
+        <div>
+            <button>0</button>
+            <button>%</button>
+            <button>^</button>
+            <button>10</button>
+            <button>=</button>
+            
+        </div>
+        <script src="script.js"></script>
+
+    </div>
+</body>
+</html>

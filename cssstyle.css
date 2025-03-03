@@ -1,0 +1,67 @@
+body {
+    background-color: pink;
+}
+h1{
+    color:blue;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color:blue;
+}
+
+td {
+    padding: 10px;
+    text-align: left; /* Ensures left alignment */
+    vertical-align: middle; /* Centers content vertically */
+}
+
+select, input[type="text"] {
+    width: 90%; /* Ensures input and select fields are properly aligned */
+    padding: 5px;
+}
+
+input[type="radio"] {
+    margin-left: 10px; /* Adds spacing between radio buttons */
+}
+
+colgroup col {
+    width: 25%; /* Ensures columns have equal width */
+}
+fieldset{
+    color:brown;
+    background-color:azure;
+}
+
+nav {
+    background-color:blue;; /* Dark background for the navigation bar */
+    padding: 10px 20px;
+     /* Padding for the nav bar */
+    
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list bullets */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+    display: flex; /* Align items horizontally */
+    justify-content: space-around; /* Add spacing between items */
+}
+
+nav ul a {
+    text-decoration: none; /* Remove underline from links */
+    color:whitesmoke; /* White text color */
+    font-size: 16px; /* Font size */
+    padding: 10px 15px; /* Padding inside links */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+nav ul a:hover {
+    background-color: #575757; /* Gray background on hover */
+    border-radius: 5px; /* Add rounded corners on hover */
+}
+
+nav ul a:active {
+    background-color: #1e90ff; /* Highlight color when clicked */
+}
